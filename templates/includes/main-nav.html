@@ -17,10 +17,10 @@
                Seasonal Flowers 
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="seasonal-flowers-link">
-                <a href="" class="dropdown-item">Hand Tie</a>
-                <a href="" class="dropdown-item">Traditional Bouquet</a>
-                <a href="" class="dropdown-item">Baskets</a>
-                <a href="" class="dropdown-item">Plants</a>
+                <a href="{% url 'products' %}?category=hand_tie" class="dropdown-item">Hand Tie</a>
+                <a href="{% url 'products' %}?category=traditional_bouquet" class="dropdown-item">Traditional Bouquet</a>
+                <a href="{% url 'products' %}?category=baskets" class="dropdown-item">Baskets</a>
+                <a href="{% url 'products' %}?category=plants" class="dropdown-item">Plants</a>
             </div>
         </li>
 
@@ -29,9 +29,9 @@
                 Gifts
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="gifts-link">
-                <a href="" class="dropdown-item">Chocolates</a>
-                <a href="" class="dropdown-item">Soft Toys</a>
-                <a href="" class="dropdown-item">Ballons</a>
+                <a href="{% url 'products' %}?category=chocolates" class="dropdown-item">Chocolates</a>
+                <a href="{% url 'products' %}?category=soft_toys" class="dropdown-item">Soft Toys</a>
+                <a href="{% url 'products' %}?category=ballons" class="dropdown-item">Ballons</a>
             </div>
         </li>
 
@@ -40,10 +40,10 @@
                 Funerals
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="funerals-link">
-                <a href="" class="dropdown-item">Floral Wreaths</a>
-                <a href="" class="dropdown-item">Floral Spray</a>
-                <a href="" class="dropdown-item">Casket Spray</a>
-                <a href="" class="dropdown-item">Special Designs</a>
+                <a href="{% url 'products' %}?category=floral_wreaths" class="dropdown-item">Floral Wreaths</a>
+                <a href="{% url 'products' %}?category=floral_spray" class="dropdown-item">Floral Spray</a>
+                <a href="{% url 'products' %}?category=casket_spray" class="dropdown-item">Casket Spray</a>
+                <a href="{% url 'products' %}?category=special_design" class="dropdown-item">Special Designs</a>
             </div>
         </li>
     </ul>
