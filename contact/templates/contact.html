@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'contact/css/contact.css' %}">
+{% endblock %}
+
 {% block content %}
 <div style="margin: 80px">
     <h1 style="text-align: center;">Contact Us</h1>
