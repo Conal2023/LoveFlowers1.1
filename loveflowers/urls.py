@@ -14,6 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
+from contact import views as contact_views
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
@@ -26,5 +27,5 @@ urlpatterns = [
     path('bag/', include('bag.urls')),
     path('checkout/', include('checkout.urls')),
     path('profile/', include('profiles.urls')),
-    path('contact/', include('contact.urls')),
+    path('contact/', contact_views.contact_view, name='contact_page'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

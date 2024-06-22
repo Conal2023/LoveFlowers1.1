@@ -1,7 +1,5 @@
 from django.db import models
 
-# Create your models here.
-
 
 select_mode_of_contact=(
     ("email","E-mail"),
