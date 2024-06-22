@@ -15,14 +15,22 @@ select_question_categories = (
 )
 
 class Contact(models.Model):
-    name = models.CharField(max_length=25)
-    email = models.EmailField()
-    phone = models.CharField(max_length=10)
-    mode_of_contact = models.CharField('Conatct by', 
-    max_length=50,choices=select_mode_of_contact,default='email')
-    question_categories = models.CharField('How can we help you?', 
-    max_length=50,choices=select_question_categories,default='certification')
-    message = models.TextField(max_length=3000)
+    name = models.CharField(max_length=25, verbose_name="")
+    email = models.EmailField(verbose_name="")
+    phone = models.CharField(max_length=10, verbose_name="")
+    mode_of_contact = models.CharField(
+        max_length=50,
+        choices=select_mode_of_contact,
+        default='email',
+        verbose_name="Contact by"
+    )
+    question_categories = models.CharField(
+        max_length=50,
+        choices=select_question_categories,
+        default='certification',
+        verbose_name="How can we help you?"
+    )
+    message = models.TextField(max_length=3000, verbose_name="")
 
     def __str__(self):
         return self.email
