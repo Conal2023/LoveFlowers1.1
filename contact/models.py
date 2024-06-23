@@ -14,6 +14,7 @@ select_question_categories = (
     ("other","Other"),
 )
 
+
 class Contact(models.Model):
     name = models.CharField(max_length=25, verbose_name="")
     email = models.EmailField(verbose_name="")
