@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'faq/css/faq.css' %}">
+{% endblock %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col text-center">
+                <hr>
+                <h1>Testimonials</h1>
+                <hr>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <ul class="faq-list">
+                {% for testimonial in testimonials %}
+                        <li>
+                            <h2>{{ testimonial.name }}{% if testimonial.title %} {{ testimonial.title }}{% endif %}</h2>
+                            <p>{{ testimonial.content }}</p>
+                            <p><strong>Submitted by:</strong> {{ testimonial.submitted_by }} from {{ testimonial.location }}</p>
+                            <p><em>{{ testimonial.created_at|date:"F j, Y" }}</em></p>
+                        </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}

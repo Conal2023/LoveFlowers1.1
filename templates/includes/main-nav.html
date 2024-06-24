@@ -2,7 +2,7 @@
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All Products
+                All Products <i class="fa-solid fa-chevron-down"></i>
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
@@ -14,7 +14,7 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="seasonal-flowers-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Seasonal Flowers 
+               Seasonal Flowers <i class="fa-solid fa-chevron-down"></i>
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="seasonal-flowers-link">
                 <a href="{% url 'products' %}?category=hand_tie" class="dropdown-item">Hand Tie</a>
@@ -26,7 +26,7 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="gifts-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Gifts
+                Gifts <i class="fa-solid fa-chevron-down"></i>
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="gifts-link">
                 <a href="{% url 'products' %}?category=chocolates" class="dropdown-item">Chocolates</a>
@@ -37,7 +37,7 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="funerals-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Funerals
+                Funerals <i class="fa-solid fa-chevron-down"></i>
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="funerals-link">
                 <a href="{% url 'products' %}?category=floral_wreaths" class="dropdown-item">Floral Wreaths</a>
@@ -47,11 +47,15 @@
             </div>
         </li>
 
-        </li>
-        <li class="nav-item">
-
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'faq_list' %}">FAQ</a>
-        
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="help-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Help <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="help-link">
+                <a href="{% url 'contact_page' %}" class="dropdown-item">Contact Us</a>
+                <a href="{% url 'faq_list' %}" class="dropdown-item">FAQ</a>
+                <a href="{% url 'testimonial_list' %}" class="dropdown-item">Testimonials</a>
+            </div>
         </li>
     </ul>
 </div>
