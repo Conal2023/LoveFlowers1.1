@@ -32,6 +32,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['loveflowers-conal-4ff1b669baa9.herokuapp.com', 'localhost', '8000-conal2023-loveflowers11-d7w4le31kwg.ws-eu114.gitpod.io']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://loveflowers-conal-4ff1b669baa9.herokuapp.com/',
+]
+
+CSRF_COOKIE_SECURE = True
 
 # Application definition
 
