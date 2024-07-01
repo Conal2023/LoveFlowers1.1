@@ -3,11 +3,11 @@ from .models import FAQ, Post
 from django_summernote.admin import SummernoteModelAdmin
 
 
-class FAQAdmin(SummernoteModelAdmin):  
+class FAQAdmin(SummernoteModelAdmin):
     summernote_fields = ('answer',)
 
 
-class PostAdmin(SummernoteModelAdmin):  
+class PostAdmin(SummernoteModelAdmin):
     summernote_fields = ('content',)
 
 

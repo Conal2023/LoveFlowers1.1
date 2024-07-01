@@ -1,17 +1,17 @@
 from django.db import models
 
 
-select_mode_of_contact=(
-    ("email","E-mail"),
+select_mode_of_contact = (
+    ("email", "E-mail"),
     ("phone", "Phone"),
 )
 
 select_question_categories = (
-    ("general_inquiry","General Inquiry"),
-    ("order","Order"),
-    ("delivery_and_availability","Delivery and Availability"),
-    ("feedback_and_suggestions","Feedback and Suggesstions"),
-    ("other","Other"),
+    ("general_inquiry", "General Inquiry"),
+    ("order", "Order"),
+    ("delivery_and_availability", "Delivery and Availability"),
+    ("feedback_and_suggestions", "Feedback and Suggesstions"),
+    ("other", "Other"),
 )
 
 
