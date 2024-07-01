@@ -14,8 +14,8 @@ import os
 import dj_database_url
 from pathlib import Path
 if os.path.isfile('loveflowers/.env'):
-    from dotenv import load_dotenv 
-    load_dotenv() 
+    from dotenv import load_dotenv
+    load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -30,7 +30,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['loveflowers-conal-4ff1b669baa9.herokuapp.com', 'localhost', '8000-conal2023-loveflowers11-d7w4le31kwg.ws-eu114.gitpod.io']
+ALLOWED_HOSTS = [
+    'loveflowers-conal-4ff1b669baa9.herokuapp.com',
+    'localhost',
+    '8000-conal2023-loveflowers11-d7w4le31kwg.ws-eu114.gitpod.io']
 
 CSRF_TRUSTED_ORIGINS = [
     'https://loveflowers-conal-4ff1b669baa9.herokuapp.com/',
@@ -91,7 +94,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',  # required by allauth
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -187,7 +190,7 @@ if 'USE_AWS' in os.environ:
         'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
         'CacheControl': 'max-age=94608000',
     }
-    
+
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'loveflowers-conal'
     AWS_S3_REGION_NAME = 'eu-north-1'
