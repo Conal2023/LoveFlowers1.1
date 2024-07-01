@@ -28,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
 
 ALLOWED_HOSTS = ['loveflowers-conal-4ff1b669baa9.herokuapp.com', 'localhost', '8000-conal2023-loveflowers11-d7w4le31kwg.ws-eu114.gitpod.io']
 
