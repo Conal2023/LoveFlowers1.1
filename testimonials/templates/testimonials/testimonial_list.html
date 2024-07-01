@@ -29,7 +29,7 @@
                             <h2>{{ testimonial.name }}{% if testimonial.title %} {{ testimonial.title }}{% endif %}</h2>
                             <p>{{ testimonial.content }}</p>
                             <p><strong>Submitted by:</strong> {{ testimonial.submitted_by }} from {{ testimonial.location }}</p>
-                            <p><em>{{ testimonial.created_at|date:"F j, Y" }}</em></p>
+                            <p><em>{{ testimonial.created_at|date:"F, Y" }}</em></p>
                         </li>
                 {% endfor %}
             </ul>
