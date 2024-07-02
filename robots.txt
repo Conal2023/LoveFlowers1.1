@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /admin/
+Disallow: /bag/
+Sitemap: https://loveflowers-conal-4ff1b669baa9.herokuapp.com/sitemap.xml
