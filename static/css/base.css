@@ -13,6 +13,9 @@ body {
     flex-direction: column;
 }
 
+main {
+    padding-bottom: 10em;
+}
 .text-custom {
     color: #8E0045;
 }
@@ -151,9 +154,19 @@ footer {
     margin-top: auto;
     padding: 15px;
     background-color: #8E0045;
-    color: white;
-    
+    width: 100%;
 }
+
+footer.container-wrapper .footer h2,
+footer.container-wrapper .footer h3,
+footer.container-wrapper .footer p,
+footer.container-wrapper .footer a {
+  color: white;
+}
+
+footer.container-wrapper .footer .block-divider {
+    border-color: white;
+  }
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
