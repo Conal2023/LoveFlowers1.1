@@ -8,13 +8,17 @@ body {
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
-    min-height: 100vh;
+    min-height: 150vh;
     display: flex;
     flex-direction: column;
 }
 
 main {
     padding-bottom: 10em;
+}
+
+.index-header {
+    padding-top: 10em;
 }
 .text-custom {
     color: #8E0045;
@@ -167,6 +171,18 @@ footer.container-wrapper .footer a {
 footer.container-wrapper .footer .block-divider {
     border-color: white;
   }
+
+.mc_embed_signup,
+.mc-field-group .asterisk,
+.indicates-required,
+.mc-field-group {
+    background: #8E0045;
+    color: white;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 600px;
+  }
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
