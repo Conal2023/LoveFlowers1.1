@@ -13,9 +13,11 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 import dj_database_url
 from pathlib import Path
-if os.path.isfile('loveflowers/.env'):
-    from dotenv import load_dotenv
-    load_dotenv()
+# if os.path.isfile('loveflowers/.env'):
+#     from dotenv import load_dotenv
+#     load_dotenv()
+if os.path.exists("env.py"):
+    import env
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -28,12 +30,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     'loveflowers-conal-4ff1b669baa9.herokuapp.com',
     'localhost',
-    '8000-conal2023-loveflowers11-d7w4le31kwg.ws-eu114.gitpod.io']
+    '8000-conal2023-loveflowers11-d7w4le31kwg.ws-eu114.gitpod.io',
+    '8000-conal2023-loveflowers11-87p7d9id219.ws.codeinstitute-ide.net',
+    ]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://loveflowers-conal-4ff1b669baa9.herokuapp.com/',
