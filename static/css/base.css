@@ -8,9 +8,13 @@ body {
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
-    min-height: 175vh;
+    min-height: 150vh;
     display: flex;
     flex-direction: column;
+}
+
+#delivery-banner h2 {
+    font-size: 1.5em;
 }
 
 main {
@@ -48,6 +52,7 @@ h1, h2, h3, h5 {
 
 .logo-font {
     text-transform: uppercase;
+    text-align: center;
 }
 
 .logo-font-free {
@@ -63,6 +68,7 @@ h1, h2, h3, h5 {
     background: #8E0045;
     color: white;
     min-width: 260px;
+    margin-left: 10em;
 }
 
 .btn-black {
@@ -161,7 +167,7 @@ footer {
     margin-top: auto;
     padding: 15px;
     background-color: #8E0045;
-    width: 100%;
+    max-width: 100%;
 }
 
 footer.container-wrapper .footer h2,
@@ -386,7 +392,7 @@ footer.container-wrapper .footer .block-divider {
         font-size: 1rem;
     }
 
-    #delivery-banner h4 {
+    #delivery-banner h2 {
         font-size: .9rem;
     }
 
@@ -405,3 +411,4 @@ footer.container-wrapper .footer .block-divider {
         padding: .25rem .5rem !important;
     }
 }
+
