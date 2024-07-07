@@ -69,3 +69,98 @@ The goal of the LoveFlowers.ie site is to offer a contemporary and user-friendly
 ## Agile
 
 I employed the Agile methodology to develop and track my User Stories, utilizing issues to monitor project progress. You can access the Agile process in a separate file titled [File Name].
+
+## User Stories
+
+ - As an Admin I can...
+    
+    - As a Site Admin, I can manage the product listings, enabling me to create, edit, or delete products.
+
+    - As a Site Admin, I can manage the Testimonial listings, allowing me to create, edit, or delete testimonials submitted by users.
+
+    - As a Site Admin, I can view contact messages sent by users and reply to them using their preferred contact method. 
+
+ - As a Site User I can...
+
+    - As a Site User I can view and understand what the purpose of the website is.
+
+    - As a Site User I can view products on the website.
+
+    - As a Site User, I can open the FAQ page and view all questions and answers.
+
+    - As a Site User I can register as a user for the site.
+
+    - As a Site User, once registered, I can view my profile, update my details, and view my order history. 
+
+###  Future Features
+
+ - As a Site User, I will be able to manage multiple addresses for delivery purposes.
+
+ - As a Site User, I will be able to submit a testimonial directly through the testimonial page. 
+
+## Design 
+
+All wireframes were designed through [Balsamiq](https://balsamiq.com/)
+
+<details>
+    <summary>Home</summary>
+
+    <br>
+
+    ![Home](media/readme/home.jpg)
+
+</details>
+
+<details>
+    <summary>Products</summary>
+
+    <br>
+
+    ![Products](media/readme/products.jpg)
+    
+</details>
+
+<details>
+    <summary>Checkout</summary>
+
+    <br>
+
+    ![Checkout](media/readme/checkout.jpg)
+    
+</details>
+
+<details>
+    <summary>Profile</summary>
+
+    <br>
+
+    ![Profile](media/readme/profile.jpg)
+    
+</details>
+
+<details>
+    <summary>Contact</summary>
+
+    <br>
+
+    ![Contact](media/readme/contact.jpg)
+    
+</details>
+
+<details>
+    <summary>FAQ</summary>
+
+    <br>
+
+    ![FAQ](media/readme/faq.jpg)
+    
+</details>
+
+<details>
+    <summary>Testimonials</summary>
+
+    <br>
+
+    ![Testimonials](media/readme/testimonial.jpg)
+    
+</details>
