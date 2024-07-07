@@ -8,7 +8,7 @@ body {
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
-    min-height: 150vh;
+    min-height: 175vh;
     display: flex;
     flex-direction: column;
 }
