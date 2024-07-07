@@ -103,64 +103,64 @@ I employed the Agile methodology to develop and track my User Stories, utilizing
 All wireframes were designed through [Balsamiq](https://balsamiq.com/)
 
 <details>
-    <summary>Home</summary>
+  <summary>Home</summary>
 
-    <br>
+  <br>
 
-    ![Home](media/readme/home.jpg)
+  ![Home](media/readme/home.jpg)
 
 </details>
 
 <details>
-    <summary>Products</summary>
+  <summary>Products</summary>
 
-    <br>
+  <br>
 
-    ![Products](media/readme/products.jpg)
-    
+  ![Products](media/readme/products.jpg)
+
 </details>
 
 <details>
-    <summary>Checkout</summary>
+  <summary>Checkout</summary>
 
-    <br>
+  <br>
 
-    ![Checkout](media/readme/checkout.jpg)
-    
+  ![Checkout](media/readme/checkout.jpg)
+
 </details>
 
 <details>
-    <summary>Profile</summary>
+  <summary>Profile</summary>
 
-    <br>
+  <br>
 
-    ![Profile](media/readme/profile.jpg)
-    
+  ![Profile](media/readme/profile.jpg)
+
 </details>
 
 <details>
-    <summary>Contact</summary>
+  <summary>Contact</summary>
 
-    <br>
+  <br>
 
-    ![Contact](media/readme/contact.jpg)
-    
+  ![Contact](media/readme/contact.jpg)
+
 </details>
 
 <details>
-    <summary>FAQ</summary>
+  <summary>FAQ</summary>
 
-    <br>
+  <br>
 
-    ![FAQ](media/readme/faq.jpg)
-    
+  ![FAQ](media/readme/faq.jpg)
+
 </details>
 
 <details>
-    <summary>Testimonials</summary>
+  <summary>Testimonials</summary>
 
-    <br>
+  <br>
 
-    ![Testimonials](media/readme/testimonial.jpg)
-    
+  ![Testimonials](media/readme/testimonial.jpg)
+
 </details>
