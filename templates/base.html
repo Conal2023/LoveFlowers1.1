@@ -37,14 +37,19 @@
     {% block extra_js %}
     {% endblock %}
 
+      <!-- Favicon -->
+      <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicon/apple-touch-icon.png' %}">
+      <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon/favicon-32x32.png' %}">
+      <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon/favicon-16x16.png' %}">
     <title>LoveFlowers.ie {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
     <header class="container-fluid fixed-top">
       <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
-          <a href="{% url 'home' %}" class="nav-link main-logo-link">
-            <h1 class="logo-font text-custom my-0"><strong>LoveFlowers.ie</strong></h1>
+          <a class="nav-link mx-2" href="{% url 'home' %}">
+            <img src="media/logo.jpg" alt="LoveFlowers.ie logo - Online flower delivery service" height="90">
+            <span class="sr-only">LoveFlowers.ie</span>
           </a>
         </div>
         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
