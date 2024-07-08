@@ -64,6 +64,9 @@ The goal of the LoveFlowers.ie site is to offer a contemporary and user-friendly
 
 #### Wont have:
 
+ - Comments section on product pages. 
+
+ - Sign up page for Florist to sign up as a partner.
 
 
 ## Agile
