@@ -291,3 +291,70 @@ After integrating the logo into the header, I realised that the website wouldn't
 - Email Confirmed Message
 
 ![Email Confirmed Message](media/readme/email_confirmed_message.jpg)
+
+- Future Developments
+
+    - Allowing users to post, edit, delete their own Testimonials.
+
+    - Allow users to have more than one delivery address. 
+
+    - Allow users to set a date for delivery. 
+
+## Testing
+
+For testing results please go to [TESTING.md](TESTING.md).
+
+## Deployment
+
+For Deployment instructions please got to [DEPLOYMENT.md](DEPLOYMENT.md).
+
+## Technologies Used 
+
+### Programming Languages Used
+
+  - HTML
+  - CSS
+  - JavaScript
+  - Python
+
+### Software Used
+
+For this project the following was used:
+
+* [Balsamiq](https://balsamiq.com/) to create all the wireframes.
+
+* [GitHub](https://github.com/) to store all the project files.
+
+* [Gitpod](https://gitpod.io/) used as the IDE for development.
+
+* [Django](https://www.djangoproject.com/) utilised as the Pyhton Framework.
+
+* [Heroku](https://www.heroku.com/) to deploy the website.
+
+* [ElephantSL](https://www.elephantsql.com/) to host the database.
+
+* [Cloudinary](https://cloudinary.com/) to store images for blog posts.
+
+* [Django-allauth](https://docs.allauth.org/en/latest/) for the creation of accounts.
+
+* [Amazon-AWS](https://aws.amazon.com/) was used host all static and media files for the site.
+
+* [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) employed for creating forms based on the models.
+
+* [Gunicorn](https://gunicorn.org/) employed as the web server to host Django on Heroku.
+
+* [Bootstrap](https://getbootstrap.com/) employed for layout design. 
+
+* [Lucid.app](https://lucid.app/users/login#/login) to create the Database Schema
+
+* [Tablesgenerator](https://www.tablesgenerator.com/) to help creat the tables for the manual testing in TESTING.md. 
+
+## Credits
+
+  - The Code Institute Boutique Ado Project had an impact on this Project. There may be some similarities in the code but I tried to stray as much as possible away from it. 
+
+  -  [w3schools](https://www.w3schools.com/) was very helpful when I had queries on how to fix issues or if I was getting an error. 
+
+  - [PythonGuides](https://pythonguides.com/contact-form-with-django-and-sqlite/) was used to help create the contact pages.
+
+  - My mentor [David Bowers](https://github.com/dnlbowers) for all the help and support he has provided over the past 12 months. Honestly, if it weren't for him, I don't think I would have finished the course.
