@@ -164,3 +164,16 @@ All wireframes were designed through [Balsamiq](https://balsamiq.com/)
   ![Testimonials](media/readme/testimonial.jpg)
 
 </details>
+
+### Database Schema
+
+ - The user model was established using Django-Allauth
+
+
+### Logo
+
+After realising that a plain colour background wouldn't suffice, I concluded that a simple heading wouldn't suffice either. Thus, I embarked on the task of creating a distinctive one. I turned to Google to discover a suitable website and proceeded to desgin a custom image for the heading. [looka.com](https://looka.com/editor/189305791) 
+
+### Favicon
+
+After integrating the logo into the header, I realised that the website wouldn't feel fully finished without a corresponding Favicon. To accomplish this, I utilised [favicon.io](https://favicon.io/) to generate a Favicon using the identical image as the logo.
