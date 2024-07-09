@@ -71,7 +71,7 @@ The goal of the LoveFlowers.ie site is to offer a contemporary and user-friendly
 
 ## Agile
 
-I employed the Agile methodology to develop and track my User Stories, utilizing issues to monitor project progress. You can access the Agile process in a separate file titled [File Name].
+I employed the Agile methodology to develop and track my User Stories, utilizing issues to monitor project progress. You can access the Agile process in a separate file titled [AGILE.md](AGILE.md).
 
 ## User Stories
 
