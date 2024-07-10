@@ -162,6 +162,11 @@ input[name='q']::placeholder {
     object-fit: cover;
   }
 
+.faq-answer p,
+a {
+    color: #555;;
+}
+
 footer {
     margin-top: auto;
     padding: 15px;
