@@ -31,7 +31,7 @@ class Contact(models.Model):
         default='certification',
         verbose_name="How can we help you?"
     )
-    message = models.TextField(max_length=3000, verbose_name="")
+    message = models.TextField(max_length=3000, verbose_name="Message")
 
     def __str__(self):
         return self.email
