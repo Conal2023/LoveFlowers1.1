@@ -106,3 +106,49 @@ The CSS for all CSS files was validated using [Jigsaw Validator](https://jigsaw.
  - On the product pages, there are alerts on the prices, indicating that these are possible headings. However, since these are not actually headings but rather fields for inputting information, I agreed that they don't need to be changed.
 
  ![Alerts_Prices](media/readme/alerts_prices.jpg)
+
+ - On the profile page I am getting errors to advise of missing form labels. After spending a lot of time on trying to fix this, nothing I did worked and I eventually gave up. 
+
+ ![Alerts_Profile](media/readme/alerts_profile.jpg)
+
+
+## Lighthouse
+
+I employed Chrome Developer Tool Lighthouse to test the Performance, Accessibility, Adherence to best practices and SEO. 
+
+### Home Page:
+
+![Home Page](media/readme/homepage_lighthouse.jpg)
+
+### Contact Page:
+
+![Contact Page](media/readme/contactpage_lighthouse.jpg)
+
+### FAQ Page:
+
+![FAQ Page](media/readme/faq_lighthouse.jpg)
+
+### Testimonial Page:
+
+![Testimonial Page](media/readme/testimonial_lighthouse.jpg)
+
+### Products Page:
+
+![Products Page](media/readme/products_lighthouse.jpg)
+
+### Shopping Bag:
+
+![Shopping Bag](media/readme/bag_lighthouse.jpg)
+
+### Sign In Page:
+
+![Sign In Page](media/readme/signin_lighthouse.jpg)
+
+### Sign Out Page:
+
+![Sign Out Page](media/readme/signout_lighthouse.jpg)
+
+### Sign Up Page:
+
+![Sign Up Page](media/readme/signup_lighthouse.jpg)
+

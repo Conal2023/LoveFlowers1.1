@@ -27,4 +27,4 @@ This Project has 5 epics:
 
 ## Labels
 
-This project emplyed labels for Epics and priority (MoSCow) to organise the developement process. 
+This project employed labels for Epics and priority (MoSCow) to organise the developement process. 

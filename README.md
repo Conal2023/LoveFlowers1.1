@@ -172,6 +172,21 @@ All wireframes were designed through [Balsamiq](https://balsamiq.com/)
 
  - The user model was established using Django-Allauth
 
+### Business Model 
+
+LoveFlowers.ie was created with the goal of providing a convenient way for customers to order and receive flower deliveries anywhere in Ireland. By using LoveFlowers.ie, customers can avoid the hassle of searching for a local florist. Once an order is placed through our platform, we promptly contact our closest partner florist, who expertly prepares the arrangement and ensures it is delivered right to your door, ensuring a seamless and delightful experience for our customers.
+
+Our goal is to establish the largest flower delivery network in Ireland and subsequently expand into the UK and Europe. We aim to establish a presence in every county, collaborating closely with local florists to deliver exceptional service to our customers.
+
+### SEO (Search Engine Optimisation)
+
+SEO or Search Engine Optimisation is a process in which to improve your websites visibility so that there is a higher chance of a user coming across the website when searching for terms which fall in line with your websites description and keywords.
+
+To ensure that the site had a high SEO rating the following was done: 
+
+- Implement meta keywords and descriptions to ensure more hits for the site when users are searching for puzzles online.
+- Through using [XML-Sitemaps](https://www.xml-sitemaps.com/) a sitemap was created using the final deployed version of LoveFlowers.ie. This was created to help provide the most important pages for LoveFlowers.ie to enhance its visibility on search engines.
+- Finally a robots.txt file was created to advise which parts of the site could and could not be accessed by search engine crawlers.
 
 ### Logo
 
