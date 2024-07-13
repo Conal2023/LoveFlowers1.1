@@ -29,6 +29,7 @@
             <form class="mt-3" action="{% url 'contact_page' %}" method="POST">
                 {% csrf_token %}
                 <fieldset class="rounded px-3 mb-5">
+                    <legend>Contact Information</legend>
                     {{ form|crispy }}
                 </fieldset>
                 <button class="btn btn-black rounded-0 text-uppercase float-right">Submit</button>

@@ -16,9 +16,9 @@ select_question_categories = (
 
 
 class Contact(models.Model):
-    name = models.CharField(max_length=25, verbose_name="")
-    email = models.EmailField(verbose_name="")
-    phone = models.CharField(max_length=10, verbose_name="")
+    name = models.CharField(max_length=25, verbose_name="name")
+    email = models.EmailField(verbose_name="email")
+    phone = models.CharField(max_length=10, verbose_name="phone")
     mode_of_contact = models.CharField(
         max_length=50,
         choices=select_mode_of_contact,
