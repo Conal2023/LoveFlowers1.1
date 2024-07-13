@@ -167,6 +167,10 @@ a {
     color: #555;
 }
 
+.contact-link:hover {
+    color: #555;
+}
+
 footer {
     margin-top: auto;
     padding: 15px;
