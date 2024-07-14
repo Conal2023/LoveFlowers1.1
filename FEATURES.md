@@ -32,9 +32,9 @@
 
 ![Filter / Sorting](media/readme/filter.jpg)
 
-- product
+- Product
 
-![product](media/readme/product.jpg)
+![Product](media/readme/product.jpg)
 
 - Add to Bag
 

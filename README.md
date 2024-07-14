@@ -182,7 +182,7 @@ Our goal is to establish the largest flower delivery network in Ireland and subs
 
 ### Market Strategy
 
-To boost LoveFlowers.ie presence on social media, a Facebook page was established. E-commerce thries on Facebook by maintaining consistent posts, engaging with isers, conducting polls for feedback, and hosting competitions to attract both new and returning users. 
+To boost LoveFlowers.ie presence on social media, a Facebook page was established. E-commerce thrives on Facebook by maintaining consistent posts, engaging with users, conducting polls for feedback, and hosting competitions to attract both new and returning users. 
 
 [LoveFlowers.ie Facebook Page](https://www.facebook.com/profile.php?id=61562084902681)
 
@@ -244,8 +244,6 @@ For this project the following was used:
 
 * [ElephantSL](https://www.elephantsql.com/) to host the database.
 
-* [Cloudinary](https://cloudinary.com/) to store images for blog posts.
-
 * [Django-allauth](https://docs.allauth.org/en/latest/) for the creation of accounts.
 
 * [Amazon-AWS](https://aws.amazon.com/) was used host all static and media files for the site.
@@ -269,4 +267,5 @@ For this project the following was used:
   - [PythonGuides](https://pythonguides.com/contact-form-with-django-and-sqlite/) was used to help create the contact pages.
 
   - My mentor [David Bowers](https://github.com/dnlbowers) for all the help and support he has provided over the past 12 months. Honestly, if it weren't for him, I don't think I would have finished the course.
+
   - Finally, I want to express my gratitude to my amazing wife and two daughters. They not only supported my decision to pursue this course but also encouraged and pushed me to do my best. They listened to my frustrations and provided the motivation to keep going.

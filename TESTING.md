@@ -129,7 +129,7 @@ The CSS for all CSS files was validated using [Jigsaw Validator](https://jigsaw.
 
  - When I initially set up AWS for the static and media files, some images didn't display. After watching a walkthrough video for setting up AWS, I discovered that I had missed an important step. Once I followed the walkthrough correctly, the images started appearing correctly.
 
- - After deploying the website on Heroku, I noticed that none of my products had transferred over, and none of my custom models for Testimonials, FAQ, or the contact us page had been included. After trying to figure out the issue myself, I eventually had to contact tutor support. They were able to guide me step by step and help me resolve the issue, getting everything back in working order.
+ - After deploying the website on Heroku, I noticed that none of my products had transferred over, and none of my custom models for Testimonials, FAQ, or the Contact Us page had been included. After trying to figure out the issue myself, I eventually had to contact tutor support. They were able to guide me step by step and help me resolve the issue, getting everything back in working order.
 
 ## Wave Aim Accessibilty Checker
 
