@@ -118,6 +118,16 @@ The CSS for all CSS files was validated using [Jigsaw Validator](https://jigsaw.
 | 404 Page |  Goes to 404 Page | Add "/chicken" to end of site url | Brings the user to the 404 Page |     Pass     |
 
 
+#### How to use Strip test card
+
+For interactive testing, use a card number such as 4242 4242 4242 4242. You can input this number in the Dashboard or any payment form.
+
+- Choose a valid future expiration date, such as 12/25.
+- Enter any three-digit CVC.
+- Fill in the other form fields with any values you prefer.
+
+To find out more visit [Stripe site](https://stripe.com/docs/testing#testing-interactively)
+
 
 ## Bugs
 
