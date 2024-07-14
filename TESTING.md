@@ -89,6 +89,34 @@ The CSS for all CSS files was validated using [Jigsaw Validator](https://jigsaw.
 |   Logout Link   | Goes to the Logout Page |       Clicked on Logout       |              Goes to the Logout Page             |     Pass     |
 | Sign Out Button |    Logs the user out    | Clicked on the Log Out Button | Logs the user out and goes back to the Home Page |     Pass     |
 
+`Checkout`
+
+|      Features     |     Expected Outcomes     |                                                   Test Performed                                                   |                Result                | Test Outcome |
+|:-----------------:|:-------------------------:|:------------------------------------------------------------------------------------------------------------------:|:------------------------------------:|:------------:|
+|  Checkout Button  |   Goes to Checkout Page   |                                             Clicked on Checkout Button                                             | Brings the user to the Checkout Page |     Pass     |
+|   Checkout Page   | Goes to Confirmation Page | On the Checkout Page, complete the form with users details, delivery details and the Stripe Test card information. |   Brings users to Confirmation Page  |     Pass     |
+| Confirmation Page |  Email confirmation sent  |                                    Check email address to make sure email sends                                    |   User receives email confirmation   |     Pass     |
+
+`Product Management`
+
+|      Features      |        Expected Outcomes        |                                         Test Performed                                         |                      Result                     | Test Outcome |
+|:------------------:|:-------------------------------:|:----------------------------------------------------------------------------------------------:|:-----------------------------------------------:|:------------:|
+| Product Management | Goes to Product Management Page |                              Clicked on Product Management Button                              | Brings the admin to the Product Management Page |     Pass     |
+|     Add Product    |      Product added to site      | On the Product Management Page, complete the form with product details, description and image. |             Product is added to site            |     Pass     |
+
+`Profile`
+
+|    Features    |   Expected Outcomes  |        Test Performed        |                Result               | Test Outcome |
+|:--------------:|:--------------------:|:----------------------------:|:-----------------------------------:|:------------:|
+|  Profile Page  | Goes to Profile Page | Clicked on My Profile Button | Brings the user to the Profile Page |     Pass     |
+| Update Details | User Details Updated |     Updated user details     |           Details Updated           |     Pass     |
+
+`404 Page`
+
+| Features | Expected Outcomes |           Test Performed          |              Result             | Test Outcome |
+|:--------:|:-----------------:|:---------------------------------:|:-------------------------------:|:------------:|
+| 404 Page |  Goes to 404 Page | Add "/chicken" to end of site url | Brings the user to the 404 Page |     Pass     |
+
 
 
 ## Bugs
@@ -98,6 +126,10 @@ The CSS for all CSS files was validated using [Jigsaw Validator](https://jigsaw.
 ### Fixed Bugs
 
  - I originally had a issue with webhooks where after a purchase went through the email confirmation wouldnt come through on the terminal. After trying to figure out the issue I had to contact Tutor support who advised me that I hadnt set up the Hosted Endpoints correctly. Once fixed the emails were sent to the terminal correctly.
+
+ - When I initially set up AWS for the static and media files, some images didn't display. After watching a walkthrough video for setting up AWS, I discovered that I had missed an important step. Once I followed the walkthrough correctly, the images started appearing correctly.
+
+ - After deploying the website on Heroku, I noticed that none of my products had transferred over, and none of my custom models for Testimonials, FAQ, or the contact us page had been included. After trying to figure out the issue myself, I eventually had to contact tutor support. They were able to guide me step by step and help me resolve the issue, getting everything back in working order.
 
 ## Wave Aim Accessibilty Checker
 

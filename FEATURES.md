@@ -68,11 +68,11 @@
 
 ![Testimonial Page](media/readme/testimonial_page.jpg)
 
-- Product Management Page
+- Product Management Page (Admin Only)
 
 ![Product Management Page](media/readme/product_management_page.jpg)
 
-- Product Management Page 2
+- Product Management Page 2 (Admin Only)
 
 ![Product Management Page 2](media/readme/product_management_page2.jpg)
 
@@ -111,6 +111,17 @@
 - Email Confirmed Message
 
 ![Email Confirmed Message](media/readme/email_confirmed_message.jpg)
+
+- Facebook Page
+
+[LoveFlowers.ie Facebook Page](https://www.facebook.com/profile.php?id=61562084902681)
+
+![LoveFlowers.ie Facebook Page](media/readme/facebook.jpg)
+
+![LoveFlowers.ie Facebook Page](media/readme/facebook1.jpg)
+
+![LoveFlowers.ie Facebook Page](media/readme/facebook2.jpg)
+
 
 - Future Developments
 

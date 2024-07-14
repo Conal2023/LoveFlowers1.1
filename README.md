@@ -172,11 +172,22 @@ All wireframes were designed through [Balsamiq](https://balsamiq.com/)
 
  - The user model was established using Django-Allauth
 
+  ![Database Schema](media/readme/database_schema.jpg)
+
 ### Business Model 
 
-LoveFlowers.ie was created with the goal of providing a convenient way for customers to order and receive flower deliveries anywhere in Ireland. By using LoveFlowers.ie, customers can avoid the hassle of searching for a local florist. Once an order is placed through our platform, we promptly contact our closest partner florist, who expertly prepares the arrangement and ensures it is delivered right to your door, ensuring a seamless and delightful experience for our customers.
+The chosen business model for this e-commerce site is B2C (Business to Consumer). LoveFlowers.ie was created with the goal of providing a convenient way for customers to order and receive flower deliveries anywhere in Ireland. By using LoveFlowers.ie, customers can avoid the hassle of searching for a local florist. Once an order is placed through our platform, we promptly contact our closest partner florist, who expertly prepares the arrangement and ensures it is delivered right to your door, ensuring a seamless and delightful experience for our customers.
 
 Our goal is to establish the largest flower delivery network in Ireland and subsequently expand into the UK and Europe. We aim to establish a presence in every county, collaborating closely with local florists to deliver exceptional service to our customers.
+
+### Market Strategy
+
+To boost LoveFlowers.ie presence on social media, a Facebook page was established. E-commerce thries on Facebook by maintaining consistent posts, engaging with isers, conducting polls for feedback, and hosting competitions to attract both new and returning users. 
+
+[LoveFlowers.ie Facebook Page](https://www.facebook.com/profile.php?id=61562084902681)
+
+![Marketing Post Facebook](media/readme/marketing_fb.jpg)
+
 
 ### SEO (Search Engine Optimisation)
 
@@ -258,3 +269,4 @@ For this project the following was used:
   - [PythonGuides](https://pythonguides.com/contact-form-with-django-and-sqlite/) was used to help create the contact pages.
 
   - My mentor [David Bowers](https://github.com/dnlbowers) for all the help and support he has provided over the past 12 months. Honestly, if it weren't for him, I don't think I would have finished the course.
+  - Finally, I want to express my gratitude to my amazing wife and two daughters. They not only supported my decision to pursue this course but also encouraged and pushed me to do my best. They listened to my frustrations and provided the motivation to keep going.
