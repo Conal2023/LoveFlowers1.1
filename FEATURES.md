@@ -112,6 +112,14 @@
 
 ![Email Confirmed Message](media/readme/email_confirmed_message.jpg)
 
+- Custom 404 Page
+
+![Custom 404 Page](media/readme/404.jpg)
+
+- MailChimp
+
+![MailChimp](media/readme/mailchimp.jpg)
+
 - Facebook Page
 
 [LoveFlowers.ie Facebook Page](https://www.facebook.com/profile.php?id=61562084902681)
