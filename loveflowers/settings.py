@@ -25,16 +25,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', '')
+SECRET_KEY = os.environ.get('SECRET_KEY', '4y)2%v94+czwytean*y+yyh=085%*w1epza*7h(1go1+b1=jvt')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     'loveflowers-conal-4ff1b669baa9.herokuapp.com',
     'localhost',
     '8000-conal2023-loveflowers11-d7w4le31kwg.ws-eu114.gitpod.io',
     '8000-conal2023-loveflowers11-87p7d9id219.ws.codeinstitute-ide.net',
+    '8000-conal2023-loveflowers11-6ieo8gj2vvk.ws.codeinstitute-ide.net',
     ]
 
 CSRF_TRUSTED_ORIGINS = [
