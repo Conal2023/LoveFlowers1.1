@@ -17,6 +17,248 @@ The CSS for all CSS files was validated using [Jigsaw Validator](https://jigsaw.
 ![CSS](media/readme/css_validator.jpg)
 
 
+### Javascript
+
+All the JavaScript was tested and validated using [JSHint](https://jshint.com/) with only one error being found and fixed. 
+
+#### Bag.js
+
+![Bag.js](media/readme/bag.js.jpg)
+
+#### Stripe_elements.js
+
+![Stripe_elements.js](media/readme/stripe_elements.js.jpg)
+
+#### Faq.js
+
+![Faq.js](media/readme/faq.js.jpg)
+
+#### Add_product.js
+
+![Add_product.js](media/readme/add_product.js.jpg)
+
+#### Edit_product.js
+
+![Edit_product.js](media/readme/edit_product.js.jpg)
+
+#### Products.js
+
+![Products.js](media/readme/products.js.jpg)
+
+#### Quantity_input_script.js
+
+![Quantity_input_script.js](media/readme/quantity_input_script.js.jpg)
+
+#### Countryfields.js
+
+![Countryfields.js](media/readme/countryfield.js.jpg)
+
+### CI Python Linter
+
+#### LoveFlowers
+
+- Settings.py
+    * The errors recorded are linked to Django Validators and can't be amended. 
+
+    ![settings.py](media/readme/loveflowers_settings.py.jpg)
+
+- Urls.py
+
+    ![urls.py](media/readme/loveflowers_urls.py.jpg)
+
+- Views.py
+
+    ![views.py](media/readme/loveflowers_views.py.jpg)
+
+#### Bag
+
+- Apps.py
+
+    ![apps.py](media/readme/bag_app.py.jpg)
+
+- Contexts.py
+
+    ![context.py](media/readme/bag_context.py.jpg)
+
+- Urls.py
+
+    ![urls.py](media/readme/bag_urls.py.jpg)
+
+- Views.py
+
+    ![views.py](media/readme/bag_views.py.jpg)
+
+#### Checkout
+
+- Admin.py
+
+    ![admin.py](media/readme/checkout_admin.py.jpg)
+
+- Apps.py
+
+    ![apps.py](media/readme/checkout_apps.py.jpg)
+
+- Forms.py
+
+    ![forms.py](media/readme/checkout_forms.py.jpg)
+
+- Models.py
+
+    ![models.py](media/readme/checkout_models.py.jpg)
+
+- Signals.py
+
+    ![signals.py](media/readme/checkout_signals.py.jpg)
+
+- Urls.py
+
+    ![urls.py](media/readme/checkout_urls.py.jpg)
+
+- Views.py
+
+    ![views.py](media/readme/checkout_views.py.jpg)
+
+- Webhook_handler.py
+
+    ![webhook_handler.py](media/readme/checkout_webhandlers.py.jpg)
+
+- Webhooks.py
+
+    ![webhooks.py](media/readme/checkout_webhooks.py.jpg)
+
+#### Contact 
+
+- Admin.py
+
+    ![admin.py](media/readme/contact_admin.py.jpg)
+
+- Apps.py
+
+    ![apps.py](media/readme/contact_apps.py.jpg)
+
+- Forms.py
+
+    ![forms.py](media/readme/contact_forms.py.jpg)
+
+- Models.py
+
+    ![models.py](media/readme/contact_models.py.jpg)
+
+- Views.py
+
+    ![views.py](media/readme/contact_views.py.jpg)
+
+#### FAQ
+
+- Admin.py
+
+    ![admin.py](media/readme/faq_admin.py.jpg)
+
+- Apps.py
+
+    ![apps.py](media/readme/faq_apps.py.jpg)
+
+- Models.py
+
+    ![models.py](media/readme/faq_models.py.jpg)
+
+- Urls.py
+
+    ![urls.py](media/readme/faq_urls.py.jpg)
+
+- Views.py 
+
+    ![views.py](media/readme/faq_views.py.jpg)
+
+#### Home
+
+- Apps.py
+
+    ![apps.py](media/readme/home_apps.py.jpg)
+
+- Urls.py
+
+    ![urls.py](media/readme/home_urls.py.jpg)
+
+- Views.py
+
+    ![views.py](media/readme/home_views.py.jpg)
+
+#### Products
+
+- Admin.py
+
+    ![admin.py](media/readme/products_admin.py.jpg)
+
+- Apps.py
+
+    ![apps.py](media/readme/products_app.py.jpg)
+
+- Forms.py
+
+    ![forms.py](media/readme/products_forms.py.jpg)
+
+- Models.py
+
+    ![models.py](media/readme/products_models.py.jpg)
+
+- Urls.py
+
+    ![urls.py](media/readme/products_urls.py.jpg)
+
+- Views.py
+
+    ![views.py](media/readme/products_views.py.jpg)
+
+- Widgets.py
+
+    ![widgets.py](media/readme/products_widgets.py.jpg)
+
+#### Profiles
+
+- Apps.py
+
+    ![apps.py](media/readme/profile_apps.py.jpg)
+
+- Forms.py
+
+    ![forms.py](media/readme/profiles_forms.py.jpg)
+
+- Models.py
+
+    ![models.py](media/readme/profiles_models.py.jpg)
+
+- Urls.py
+
+    ![urls.py](media/readme/profile_urls.py.jpg)
+
+- views.py
+
+    ![views.py](media/readme/profiles_views.py.jpg)
+
+#### Testimonials
+
+- Admin.py
+
+    ![admin.py](media/readme/testimonial_admin.py.jpg)
+
+- Apps.py
+
+    ![apps.py](media/readme/testimonial_apps.py.jpg)
+
+- Models.py
+
+    ![models.py](media/readme/testimonial_models.py.jpg)
+
+- Urls.py
+
+    ![urls.py](media/readme/testimonial_urls.py.jpg)
+
+- Views.py
+
+    ![views.py](media/readme/testimonial_views.py.jpg)
+
+
 ### Manual Testing
 
 
