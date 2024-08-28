@@ -5,10 +5,15 @@
 
 ### HTML
 
-The HTML was inspected by accessing the page source and copying the code into the [W3C Validator](https://validator.w3.org/). It returned no errors or warnings, indicating that the HTML code is valid. This was done for all pages. 
+The HTML was inspected by accessing the page source and copying the code into the [W3C Validator](https://validator.w3.org/). This was done for all pages. Only a few errors where found and most of these were corrected. There was a few errors though that could'nt be corrected. 
 
 ![HTML](media/readme/html_validator.jpg)
 
+ - Add/Edit Product Pages
+
+    Here Duplicate Error ID was encountered from using custom clearable inputs form the CI Tutorial. 
+    
+    ![Add/Edit Error](media/readme/add_edit_html_error.jpg)
 
 ### CSS
 
