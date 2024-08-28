@@ -5,7 +5,7 @@
 
 ### HTML
 
-The HTML was inspected by accessing the page source and copying the code into the [W3C Validator](https://validator.w3.org/). This was done for all pages. Only a few errors where found and most of these were corrected. There was a few errors though that could'nt be corrected. 
+The HTML was inspected by accessing the page source and copying the code into the [W3C Validator](https://validator.w3.org/). This was done for all pages. Only a few errors where found and most of these were corrected. There was 2 errors though that could'nt be corrected - see Add/Edit Products Pages below. 
 
 ![HTML](media/readme/html_validator.jpg)
 
@@ -24,7 +24,10 @@ The CSS for all CSS files was validated using [Jigsaw Validator](https://jigsaw.
 
 ### Javascript
 
-All the JavaScript was tested and validated using [JSHint](https://jshint.com/) with only one error being found and fixed. 
+All the JavaScript was tested and validated using [JSHint](https://jshint.com/) with only two errors being found and one fixed. The one not fixed I was advised to leave as is. 
+
+#### Base.js
+![Base.js](media/readme/base.js.jpg)
 
 #### Bag.js
 
