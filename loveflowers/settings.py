@@ -180,6 +180,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
@@ -234,3 +235,14 @@ else:
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+
+    # Static files (CSS, JavaScript, Images)
+STATIC_URL = '/static/'
+
+# Local folder where Django will collect static files on Heroku
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# Optional: if you have additional static folders
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
