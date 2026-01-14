@@ -38,7 +38,7 @@ ALLOWED_HOSTS = [
     '8000-conal2023-loveflowers11-d7w4le31kwg.ws-eu114.gitpod.io',
     '8000-conal2023-loveflowers11-87p7d9id219.ws.codeinstitute-ide.net',
     '8000-conal2023-loveflowers11-6ieo8gj2vvk.ws.codeinstitute-ide.net',
-    '127.0.0.1', 'localhost'
+    '127.0.0.1', 'localhost',
     'loveflowers-app-2026-56cc20293230.herokuapp.com',
     ]
 
