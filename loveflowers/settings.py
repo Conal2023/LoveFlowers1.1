@@ -13,9 +13,10 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 import dj_database_url
 from pathlib import Path
+from dotenv import load_dotenv
 
-if os.path.exists("env.py"):
-    import env
+load_dotenv()
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,8 +26,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get(
-    'SECRET_KEY', '4y)2%v94+czwytean*y+yyh=085%*w1epza*7h(1go1+b1=jvt')
+SECRET_KEY = os.environ.get("SECRET_KEY")
+DEBUG = os.environ.get("DEBUG", "False") == "True"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,6 +38,7 @@ ALLOWED_HOSTS = [
     '8000-conal2023-loveflowers11-d7w4le31kwg.ws-eu114.gitpod.io',
     '8000-conal2023-loveflowers11-87p7d9id219.ws.codeinstitute-ide.net',
     '8000-conal2023-loveflowers11-6ieo8gj2vvk.ws.codeinstitute-ide.net',
+    '127.0.0.1', 'localhost'
     ]
 
 CSRF_TRUSTED_ORIGINS = [
@@ -134,17 +136,11 @@ LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'loveflowers.wsgi.application'
 
-if 'DATABASE_URL' in os.environ:
-    DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-    }
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
-    }
+DATABASES = {
+    'default': dj_database_url.config(
+        default=f"postgres://{os.environ.get('PG_USER')}:{os.environ.get('PG_PASS')}@{os.environ.get('PG_HOST')}:{os.environ.get('PG_PORT')}/{os.environ.get('PG_NAME')}"
+    )
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
