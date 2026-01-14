@@ -224,7 +224,9 @@ STRIPE_WH_SECRET = os.environ.get('STRIPE_WH_SECRET', '')
 
 
 # EMAIL CREDENTIALS
-if 'DEVELOPMENT' in os.environ:
+DEVELOPMENT = os.environ.get('DEVELOPMENT', 'True') == 'True'
+
+if DEVELOPMENT:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
     DEFAULT_FROM_EMAIL = 'contact@loveflowers.ie'
 else:
@@ -234,8 +236,7 @@ else:
     EMAIL_HOST = 'smtp.gmail.com'
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
-    DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
-
+    DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
     # Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
 
