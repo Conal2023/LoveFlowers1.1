@@ -5,6 +5,8 @@
                 Home
             </a>
         </li>
+
+        <!-- All Products Dropdown -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products <i class="fa-solid fa-chevron-down"></i>
@@ -17,41 +19,45 @@
             </div>
         </li>
 
+        <!-- Seasonal Flowers Dropdown -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="seasonal-flowers-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                Seasonal Flowers <i class="fa-solid fa-chevron-down"></i>
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="seasonal-flowers-link">
-                <a href="{% url 'products' %}?category=hand_tie" class="dropdown-item">Hand Tie</a>
-                <a href="{% url 'products' %}?category=traditional_bouquet" class="dropdown-item">Traditional Bouquet</a>
-                <a href="{% url 'products' %}?category=baskets" class="dropdown-item">Baskets</a>
-                <a href="{% url 'products' %}?category=plants" class="dropdown-item">Plants</a>
+                <a href="{% url 'products' %}?category=Hand Tie" class="dropdown-item">Hand Tie</a>
+                <a href="{% url 'products' %}?category=Traditional Bouquet" class="dropdown-item">Traditional Bouquet</a>
+                <a href="{% url 'products' %}?category=Baskets" class="dropdown-item">Baskets</a>
+                <a href="{% url 'products' %}?category=Plants" class="dropdown-item">Plants</a>
             </div>
         </li>
 
+        <!-- Gifts Dropdown -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="gifts-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Gifts <i class="fa-solid fa-chevron-down"></i>
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="gifts-link">
-                <a href="{% url 'products' %}?category=chocolates" class="dropdown-item">Chocolates</a>
-                <a href="{% url 'products' %}?category=soft_toys" class="dropdown-item">Soft Toys</a>
-                <a href="{% url 'products' %}?category=ballons" class="dropdown-item">Ballons</a>
+                <a href="{% url 'products' %}?category=Chocolates" class="dropdown-item">Chocolates</a>
+                <a href="{% url 'products' %}?category=Soft Toys" class="dropdown-item">Soft Toys</a>
+                <a href="{% url 'products' %}?category=Ballons" class="dropdown-item">Ballons</a>
             </div>
         </li>
 
+        <!-- Funerals Dropdown -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="funerals-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Funerals <i class="fa-solid fa-chevron-down"></i>
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="funerals-link">
-                <a href="{% url 'products' %}?category=floral_wreaths" class="dropdown-item">Floral Wreaths</a>
-                <a href="{% url 'products' %}?category=floral_spray" class="dropdown-item">Floral Spray</a>
-                <a href="{% url 'products' %}?category=casket_spray" class="dropdown-item">Casket Spray</a>
-                <a href="{% url 'products' %}?category=special_design" class="dropdown-item">Special Designs</a>
+                <a href="{% url 'products' %}?category=Floral Wreaths" class="dropdown-item">Floral Wreaths</a>
+                <a href="{% url 'products' %}?category=Floral Spray" class="dropdown-item">Floral Spray</a>
+                <a href="{% url 'products' %}?category=Casket Spray" class="dropdown-item">Casket Spray</a>
+                <a href="{% url 'products' %}?category=Special Designs" class="dropdown-item">Special Designs</a>
             </div>
         </li>
 
+        <!-- Customer Support Dropdown -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="help-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Customer Support <i class="fa-solid fa-chevron-down"></i>
