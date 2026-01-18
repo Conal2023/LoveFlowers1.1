@@ -225,7 +225,7 @@ STRIPE_WH_SECRET = os.environ.get('STRIPE_WH_SECRET', '')
 
 
 # EMAIL CREDENTIALS
-DEVELOPMENT = os.environ.get('DEVELOPMENT', 'True') == 'True'
+DEVELOPMENT = os.environ.get('DEVELOPMENT', 'False') == 'True'
 
 if DEVELOPMENT:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
