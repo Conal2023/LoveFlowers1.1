@@ -1,5 +1,7 @@
 from django.contrib import admin
 from .models import Product, Category
+from django_summernote.admin import SummernoteModelAdmin
+
 
 # Register your models here.
 
@@ -15,6 +17,7 @@ class ProductAdmin(admin.ModelAdmin):
     )
 
     ordering = ('sku',)
+    summernote_fields = ('description',)
 
 
 class CategoryAdmin(admin.ModelAdmin):
