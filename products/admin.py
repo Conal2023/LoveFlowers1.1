@@ -6,7 +6,7 @@ from django_summernote.admin import SummernoteModelAdmin
 # Register your models here.
 
 
-class ProductAdmin(admin.ModelAdmin):
+class ProductAdmin(SummernoteModelAdmin):
     list_display = (
         'sku',
         'name',
