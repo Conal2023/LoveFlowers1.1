@@ -34,7 +34,19 @@ h1, h2, h3, h5 {
 
 .bg-custom,
 .btn-custom {
-    background-color: #8E0045;
+    background-color: #8E0045 !important; /* same as Shop Now background */
+    color: white !important; /* same as Shop Now text color */
+    border: 1px solid #000; /* keep border as is */
+    font-size: 0.875rem; /* small size matches form-control-sm */
+    padding: .375rem .75rem; /* keep small padding */
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active {
+    background-color: #770058; /* darker hover like Shop Now */
+    color: white;
 }
 
 .fa-search {
