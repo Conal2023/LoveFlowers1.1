@@ -11,7 +11,6 @@ dj-database-url==0.5.0
 Django==4.2.27
 django-admin-extensions==0.10.0
 django-allauth==0.51.0
-django-cloudinary-storage==0.3.0
 django-countries==7.2.1
 django-crispy-forms==1.14.0
 django-storages==1.14.3
