@@ -1,1 +1,1 @@
-LoveFlowers.ie Confirmation for Order Number {{ order.order_number }}
+Your Order Confirmation – {{ order.order_number }}
