@@ -29,8 +29,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = os.environ.get("DEBUG", "False") == "True"
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
 ALLOWED_HOSTS = [
     'loveflowers-conal-4ff1b669baa9.herokuapp.com',
@@ -43,7 +41,8 @@ ALLOWED_HOSTS = [
     ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://loveflowers-conal-4ff1b669baa9.herokuapp.com/',
+    'https://loveflowers-conal-4ff1b669baa9.herokuapp.com',
+    'https://loveflowers-app-2026-56cc20293230.herokuapp.com',
 ]
 
 CSRF_COOKIE_SECURE = True
@@ -249,6 +248,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
-SECURE_SSL_REDIRECT = True
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
+if not DEBUG:
+    SECURE_SSL_REDIRECT = True
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True
