@@ -168,7 +168,7 @@ else:
     DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 # AWS S3 Configuration
-USE_AWS = os.environ.get('USE_AWS', 'FALSE') == 'TRUE'
+USE_AWS = os.environ.get('USE_AWS', '').lower() == 'true'
 
 if USE_AWS:
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
