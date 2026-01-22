@@ -176,6 +176,9 @@ if USE_AWS:
     AWS_STORAGE_BUCKET_NAME = 'loveflowers-app-2026'
     AWS_S3_REGION_NAME = 'eu-north-1'
 
+    AWS_DEFAULT_ACL = None
+    AWS_QUERYSTRING_AUTH = False
+
     STATICFILES_LOCATION = 'static'
     MEDIAFILES_LOCATION = 'media'
 
@@ -186,7 +189,6 @@ if USE_AWS:
 
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
-
 
 # Security for production
 if not DEBUG:
