@@ -14,7 +14,7 @@ django-allauth==0.51.0
 django-countries==7.2.1
 django-crispy-forms==1.14.0
 django-storages==1.14.3
-django-summernote==0.8.20.0
+django-summernote==0.8.22.0
 git-filter-repo==2.47.0
 gunicorn==22.0.0
 idna==3.11
