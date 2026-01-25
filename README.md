@@ -1,8 +1,12 @@
+# Project Update Jan 2026
+
+This project was updated to migrate from ElephantSQL to PostgreSQL following the deprecation and shutdown of the ElephantSQL service. During this transition, several configuration and deployment issues were encountered, particularly around database connections, environment variables, and compatibility with the existing Django setup. These issues were researched and resolved using a combination of official documentation, Stack Overflow discussions, Reddit threads, and guidance from college Discord support channels. Where appropriate, ChatGPT was also used as a supplementary tool to help diagnose errors, understand compatibility issues, and validate potential solutions.
+
 # LoveFlowers.ie
 
 LoveFlowers.ie is a modern e-commerce platform connecting users with local florists throughout Ireland. Users can effortlessly purchase flowers online via LoveFlowers.ie, leaving all arrangements in capable hands! 
 
-You can [access the deployed LoveFlowers.ie site on Heroku here](https://loveflowers-conal-4ff1b669baa9.herokuapp.com/)
+You can [access the deployed LoveFlowers.ie site on Heroku here](https://loveflowers-app-2026-56cc20293230.herokuapp.com/)(Link updated Jan 2026)
 
 <img src="./media/readme/mulitdevicemockup.jpg">
 
